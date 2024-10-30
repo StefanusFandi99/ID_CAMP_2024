@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #00141f;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: greenyellow;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; /* Optional: restricts width for better alignment */
+}
+
+.header nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #00141f;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #ffffff;
+}
+
+main h1 {
+    flex-basis: 100%;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+/* Aside section */
+aside {
+    width: 40%;
+    padding: 1rem;
+    margin-left: auto; /* Positions aside to the right */
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #ffffff;
+    background-color: #29627e;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.img {
+    width: 150px;
+    height: auto;
+    align-self: flex-start; /* Align image to the start of aside */
+    margin-bottom: 1rem;
+}
+
+/* Article section */
+article {
+    height: 10vh;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #00334e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: greenyellow;
+    
+}
